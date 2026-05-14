@@ -165,16 +165,14 @@ function About() {
 }
 
 const services = [
-  { icon: Mail, title: "Inbox & Calendar", desc: "A tidy inbox and a calendar that actually reflects your priorities." },
-  { icon: MessageCircle, title: "Client Communication", desc: "Warm, on-brand replies and follow-ups that make clients feel cared for." },
-  { icon: Workflow, title: "Operations & Workflow", desc: "Streamlined day-to-day systems so the business runs without you in every detail." },
-  { icon: FileText, title: "SOP Creation", desc: "Clear, simple SOPs that capture how you work — so anyone can step in." },
-  { icon: ClipboardList, title: "Administrative Support", desc: "The small tasks that quietly steal your hours, handled." },
-  { icon: Instagram, title: "Social Media Assistance", desc: "Scheduling, captions, light content support — consistent without the burnout." },
-  { icon: Calendar, title: "Scheduling & Organization", desc: "Bookings, reminders, and rhythms that keep your week feeling spacious." },
-  { icon: FolderOpen, title: "File & Document Management", desc: "Drives and folders organized so you can find anything in two clicks." },
-  { icon: BarChart3, title: "Reporting & Backend", desc: "Light reporting and behind-the-scenes upkeep so nothing slips." },
-  { icon: UserPlus, title: "Team Onboarding", desc: "Smooth, warm onboarding for new team members and contractors." },
+  { icon: Mail, title: "Email & Inbox Management", desc: "Keep your inbox organized and stress-free." },
+  { icon: Calendar, title: "Calendar & Scheduling", desc: "Manage appointments, meetings, and reminders." },
+  { icon: Workflow, title: "Operations & Systems", desc: "Streamline processes, SOPs, and workflows." },
+  { icon: MessageCircle, title: "Client & Customer Communication", desc: "Timely follow-ups and stronger relationships." },
+  { icon: Smartphone, title: "Social Media Support", desc: "Content scheduling, captions & engagement." },
+  { icon: Pencil, title: "Documents & Spreadsheets", desc: "Create, organize, and maintain important files." },
+  { icon: Users, title: "Onboarding & Training Support", desc: "Systems, checklists, and team support." },
+  { icon: BarChart3, title: "Reporting & Admin Tasks", desc: "Data entry, reports, and general admin." },
 ];
 
 function Services() {
@@ -208,18 +206,42 @@ function Services() {
 
 const packages = [
   {
-    name: "Chaos Control", tag: "Entry-level monthly support", price: "$650", suffix: "/mo",
-    features: ["Up to 10 hours / month", "Inbox & calendar tidy-ups", "Light admin & scheduling", "Weekly check-in"],
+    name: "Essential Support", tag: "Stay on top of the day-to-day", price: "$250", suffix: "/month",
+    features: [
+      "Up to 10 hours per month",
+      "Email & calendar management",
+      "Admin tasks & data entry",
+      "Customer communication",
+      "Social media scheduling",
+      "Monthly check-in & recap",
+    ],
+    blurb: "Perfect for small businesses that need a little extra help staying organized.",
     featured: false,
   },
   {
-    name: "Clarity Build", tag: "Systems + organization + workflow", price: "$1,250", suffix: "/mo",
-    features: ["Up to 25 hours / month", "Workflow & SOP creation", "Client communication support", "Light social + admin", "Bi-weekly strategy call"],
+    name: "Growth Support", tag: "Build systems. Save time. Grow.", price: "$500", suffix: "/month",
+    features: [
+      "Up to 20 hours per month",
+      "Everything in Essential",
+      "Operations & workflow support",
+      "SOP creation & process docs",
+      "Weekly check-ins & planning",
+      "Priority support",
+    ],
+    blurb: "Ideal for businesses ready to streamline systems and improve consistency.",
     featured: true,
   },
   {
-    name: "Calm & Scaled", tag: "High-touch operational partnership", price: "$2,400", suffix: "/mo",
-    features: ["40+ hours / month", "Embedded ops partnership", "Team onboarding & SOPs", "Reporting & backend support", "Weekly strategy + Voxer access"],
+    name: "Premium Support", tag: "More freedom. More focus. More impact.", price: "$1,000", suffix: "/month",
+    features: [
+      "Up to 40 hours per month",
+      "Everything in Growth",
+      "Full operations management",
+      "Team onboarding & training",
+      "Advanced reporting",
+      "Strategy & growth support",
+    ],
+    blurb: "Full-service support for busy business owners who want a true partner.",
     featured: false,
   },
 ];
@@ -317,7 +339,7 @@ function Why() {
 
 const steps = [
   { n: "01", icon: Compass, title: "Book a Discovery Call", desc: "We chat about where you are, what's heaviest, and what calm could look like." },
-  { n: "02", icon: ClipboardList, title: "Build a Personalized Plan", desc: "I map a support plan tailored to your business, season, and capacity." },
+  { n: "02", icon: CheckSquare, title: "Build a Personalized Plan", desc: "I map a support plan tailored to your business, season, and capacity." },
   { n: "03", icon: Coffee, title: "Breathe Easier With Ongoing Support", desc: "I quietly handle the backend while you return to the work that lights you up." },
 ];
 
