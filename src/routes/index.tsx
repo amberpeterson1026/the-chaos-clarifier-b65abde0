@@ -271,6 +271,7 @@ function Packages() {
               )}
               <p className={`text-xs uppercase tracking-[0.2em] ${p.featured ? "text-primary-foreground/70" : "text-sage"}`}>{p.tag}</p>
               <h3 className="mt-3 font-display text-3xl">{p.name}</h3>
+              <p className={`mt-3 text-sm leading-relaxed ${p.featured ? "text-primary-foreground/80" : "text-muted-foreground"}`}>{p.blurb}</p>
               <div className="mt-6 flex items-baseline gap-1">
                 <span className="font-display text-5xl">{p.price}</span>
                 <span className={`text-sm ${p.featured ? "text-primary-foreground/70" : "text-muted-foreground"}`}>{p.suffix}</span>
