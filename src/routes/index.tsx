@@ -1,9 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import {
-  Mail, Calendar, MessageCircle, Workflow, FileText, ClipboardList,
-  Instagram, FolderOpen, BarChart3, UserPlus, Heart, Sparkles,
-  ShieldCheck, Coffee, Compass, ArrowRight, Menu, X,
+  Mail, Calendar, MessageCircle, Workflow, Smartphone, Pencil,
+  Users, BarChart3, Heart, Sparkles,
+  ShieldCheck, Coffee, Compass, ArrowRight, Menu, X, Star, CheckSquare, Instagram,
 } from "lucide-react";
 import logo from "@/assets/logo.png";
 import heroImg from "@/assets/hero-workspace.jpg";
