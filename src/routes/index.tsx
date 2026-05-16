@@ -57,7 +57,7 @@ function Nav() {
             {nav.map((n) => (
               <a key={n.href} href={n.href} onClick={() => setOpen(false)} className="py-2 text-foreground/80">{n.label}</a>
             ))}
-            <a href="#contact" onClick={() => setOpen(false)} className="mt-2 inline-flex items-center justify-center rounded-full bg-primary text-primary-foreground px-5 py-3 text-sm">
+            <a href="https://calendly.com/hello-chaosclarifier/30min" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)} className="mt-2 inline-flex items-center justify-center rounded-full bg-primary text-primary-foreground px-5 py-3 text-sm">
               Book a Discovery Call
             </a>
           </div>
