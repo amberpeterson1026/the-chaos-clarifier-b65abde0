@@ -89,7 +89,7 @@ function Hero() {
             workflows, and reliable support — designed for real humans.
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
-            <a href="#contact" className="group inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-7 py-4 text-sm font-medium hover:opacity-90 transition">
+            <a href="https://calendly.com/hello-chaosclarifier/30min" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-7 py-4 text-sm font-medium hover:opacity-90 transition">
               Book a Discovery Call
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </a>
