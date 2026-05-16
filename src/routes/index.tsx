@@ -426,10 +426,10 @@ function FinalCTA() {
               smoothly — without the overwhelm.
             </p>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-              <a href="#" className="inline-flex items-center gap-2 rounded-full bg-primary-foreground text-primary px-8 py-4 text-sm font-medium hover:opacity-90 transition">
+              <a href="https://calendly.com/hello-chaosclarifier/30min" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full bg-primary-foreground text-primary px-8 py-4 text-sm font-medium hover:opacity-90 transition">
                 Book Your Discovery Call <ArrowRight className="h-4 w-4" />
               </a>
-              <a href="mailto:hello@thechaosclarifier.com" className="inline-flex items-center gap-2 rounded-full border border-primary-foreground/30 px-8 py-4 text-sm font-medium hover:bg-primary-foreground/10 transition">
+              <a href="mailto:hello@chaosclarifier.com" className="inline-flex items-center gap-2 rounded-full border border-primary-foreground/30 px-8 py-4 text-sm font-medium hover:bg-primary-foreground/10 transition">
                 Send a Message
               </a>
             </div>
