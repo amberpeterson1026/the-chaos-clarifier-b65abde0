@@ -57,7 +57,7 @@ function Nav() {
             {nav.map((n) => (
               <a key={n.href} href={n.href} onClick={() => setOpen(false)} className="py-2 text-foreground/80">{n.label}</a>
             ))}
-            <a href="#contact" onClick={() => setOpen(false)} className="mt-2 inline-flex items-center justify-center rounded-full bg-primary text-primary-foreground px-5 py-3 text-sm">
+            <a href="https://calendly.com/hello-chaosclarifier/30min" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)} className="mt-2 inline-flex items-center justify-center rounded-full bg-primary text-primary-foreground px-5 py-3 text-sm">
               Book a Discovery Call
             </a>
           </div>
@@ -89,7 +89,7 @@ function Hero() {
             workflows, and reliable support — designed for real humans.
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
-            <a href="#contact" className="group inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-7 py-4 text-sm font-medium hover:opacity-90 transition">
+            <a href="https://calendly.com/hello-chaosclarifier/30min" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-7 py-4 text-sm font-medium hover:opacity-90 transition">
               Book a Discovery Call
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </a>
@@ -426,10 +426,10 @@ function FinalCTA() {
               smoothly — without the overwhelm.
             </p>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-              <a href="#" className="inline-flex items-center gap-2 rounded-full bg-primary-foreground text-primary px-8 py-4 text-sm font-medium hover:opacity-90 transition">
+              <a href="https://calendly.com/hello-chaosclarifier/30min" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full bg-primary-foreground text-primary px-8 py-4 text-sm font-medium hover:opacity-90 transition">
                 Book Your Discovery Call <ArrowRight className="h-4 w-4" />
               </a>
-              <a href="mailto:hello@thechaosclarifier.com" className="inline-flex items-center gap-2 rounded-full border border-primary-foreground/30 px-8 py-4 text-sm font-medium hover:bg-primary-foreground/10 transition">
+              <a href="mailto:hello@chaosclarifier.com" className="inline-flex items-center gap-2 rounded-full border border-primary-foreground/30 px-8 py-4 text-sm font-medium hover:bg-primary-foreground/10 transition">
                 Send a Message
               </a>
             </div>
@@ -467,8 +467,12 @@ function Footer() {
         <div>
           <div className="text-xs uppercase tracking-[0.2em] text-sage">Connect</div>
           <ul className="mt-4 space-y-3 text-sm">
-            <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-blush" /> hello@thechaosclarifier.com</li>
-            <li className="flex items-center gap-2"><Instagram className="h-4 w-4 text-blush" /> @thechaosclarifier</li>
+            <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-blush" /> hello@chaosclarifier.com</li>
+            <li className="flex items-center gap-2"><Instagram className="h-4 w-4 text-blush" /> @ChaosClarifier</li>
+            <li className="flex items-center gap-2">
+              <svg className="h-4 w-4 text-blush" viewBox="0 0 24 24" fill="currentColor" aria-hidden><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43V8.66a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.84-.09z"/></svg>
+              @ChaosClarifier
+            </li>
           </ul>
         </div>
       </div>
